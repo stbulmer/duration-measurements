@@ -1,0 +1,78 @@
+.container {
+  padding: 1rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.stepEntry {
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-darker);
+}
+
+.deleteButton {
+  background-color: var(--ifm-color-danger);
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: var(--ifm-color-danger-darker);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-align: left;
+}
+
+.table th {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.totalDuration {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 4px;
+} 
