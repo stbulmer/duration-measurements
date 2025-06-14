@@ -4,15 +4,16 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
+    "start": "npm run update-config && docusaurus start",
+    "build": "npm run update-config && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "update-config": "node scripts/update-github-config.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
@@ -24,6 +25,7 @@
     "@mui/material": "^7.1.1",
     "clsx": "^2.0.0",
     "date-fns": "^4.1.0",
+    "dotenv": "^16.5.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
